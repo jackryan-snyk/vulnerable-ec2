@@ -18,7 +18,7 @@ resource "aws_security_group" "allow_ssh_from_anywhere" {
   description = "Allow SSH inbound traffic from anywhere"
 
   ingress {
-    description      = "SSH from anywhere"
+    description      = "SSH from anywhere - test"
     from_port        = 22
     to_port          = 22
     protocol         = "tcp"
